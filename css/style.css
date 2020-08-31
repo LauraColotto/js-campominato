@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.Snack{
+  display: flex;
+  height: 100vh;
+  background-color: #2e2e2e;
+  align-content:center;
+  justify-content: space-around;
+}
+
+
+#box_red{
+  display: flex;
+  align-content: center;
+  position: relative;
+  margin: auto;
+  border-radius: 100%;
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  -webkit-box-shadow: 0px 0px 169px -33px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 169px -33px rgba(255,255,255,1);
+  box-shadow: 0px 0px 169px -33px rgba(255,255,255,1);
+}
+#box_green{
+  display: flex;
+  align-content: center;
+  position: relative;
+  margin: auto;
+  border-radius: 100%;
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  -webkit-box-shadow: 0px 0px 169px -33px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 169px -33px rgba(255,255,255,1);
+  box-shadow: 0px 0px 169px -33px rgba(255,255,255,1);
+}
+
+#pari #dispari{
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
