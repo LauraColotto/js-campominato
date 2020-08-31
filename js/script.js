@@ -6,8 +6,8 @@
 //La partita termina quando il giocatore inserisce un numero “vietato” o raggiunge il numero massimo possibile di numeri consentiti.
 //Al termine della partita il software deve comunicare il punteggio, cioè il numero di volte che l’utente ha inserito un numero consentito.
 
-var numBombeArray = 2;
-var tentativi = 5;
+var numBombeArray = 16;
+var tentativi = 100;
 
 // Funzione che genera un numero casuale da 1 a 100
 
