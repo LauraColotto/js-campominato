@@ -69,7 +69,7 @@ for (var i=0; i < (tentativi-numBombeArray) && bombaPresa == false; i++) {
   // Controllo se la bomba è stata presa oppure no e vado avanti finché non vinco (forse)
 
   if (checkArray(bombe, numUtenteArray[numUtenteArray.length - 1])){
-    alert("Hai preso una bomba!\n Hai perso :(");
+    alert("Hai preso una bomba!\n Hai perso :( \n Sei sfuggito alle bombe " + [numUtenteArray.length]);
     bombaPresa = true;
   } else {
     alert("Bravo! Sei stato fortunato!");
@@ -77,6 +77,6 @@ for (var i=0; i < (tentativi-numBombeArray) && bombaPresa == false; i++) {
 }
 
 if (numUtenteArray.length == tentativi-numBombeArray){
-  alert("Complimenti! Hai vinto!")
+  alert("Complimenti! Hai vinto!\n Sei sfuggito alle bombe " + [numUtenteArray.length]);
 }
 console.log("gioco finito");
